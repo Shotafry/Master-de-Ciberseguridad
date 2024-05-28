@@ -9,11 +9,79 @@
     <img
       src="./Ficheros/Imagenes/Elden Ring 1.jpeg"
       alt="Wallpaper del videojuego Elden Ring"
-      width="1440"
+      width="360"
     />
     <picture>
-      <source media="(1280px)" srcset="./Ficheros/Imagenes/Elden Ring 1.jpeg" />
-      <source media="(min-width:300px )" srcset="" />
+      <source
+        media="(min-width: 600px)"
+        srcset="
+          https://th.bing.com/th/id/R.3126447fc6d16d8392252f706a1b189a?rik=sDfBdANfsX3znQ&pid=ImgRaw&r=0
+        "
+      />
+      <source
+        media="(min-width: 300px and (max-width:599px)"
+        srcset="
+          https://i.pinimg.com/originals/23/86/fc/2386fc966440e1d6bea594efa0206363.jpg
+        "
+      />
+      <source
+        media="(max-width: 100px)"
+        srcset="https://cdn.wallpapersafari.com/42/35/4PTVmG.jpg"
+      />
+      <img
+        src="./Ficheros/Imagenes/Elden Ring 2.jpeg"
+        alt="Wallpaper del videojuego Elden Ring"
+        height="240"
+      />
     </picture>
+
+    <map name="infographic">
+      <area
+        shape="poly"
+        coords="130,147,200,107,254,219,130,228"
+        href="https://developer.mozilla.org/docs/Web/HTML"
+        target="_blank"
+        alt="HTML"
+      />
+    </map>
+    <img
+      usemap="#infographic"
+      src="./Ficheros/Imagenes/Html.jpeg"
+      alt="MDN infographic"
+    />
+
+    <video
+      src="./Ficheros/Videos/[1052] End of Wano 01 - New Morning.mp4"
+      width="480"
+      controls
+      autoplay
+    >
+      <track
+        srclang="en-es"
+        src="./Ficheros/Videos/2.0 -1052_End_of_Wano_01_-_New_Morning.vtt"
+        kind="captions"
+      />
+      Este video no se reproduce por infringir copyright
+    </video>
+
+    <audio controls autoplay loop>
+      <source src="ejemplo_audio.mp3" type="audio/mpeg" />
+      Esto es un ejemplo de la etiqueta audio.
+    </audio>
+
+    <iframe
+      width="660"
+      height="415"
+      src="https://www.youtube-nocookie.com/embed/dM7x1PNZDo0?si=z4BiJxDxNk_HXw5I"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <object data="catgame.swf">
+      <param name="quality" value="high" />
+    </object>
   </body>
 </html>
