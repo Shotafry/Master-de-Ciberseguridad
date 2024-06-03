@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="author" content="Shotafry" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action="/Vs/HTML5/Ficheros/Imagenes/Elden Ring 1.jpeg"
+      name="tndh"
+      method="get"
+    >
+      <p><b>Texto, numeros, fechas</b></p>
+      <fieldset>
+        <br /><br />
+        <label for="user">Usuario</label>
+        <input type="text" name="user" id="user" />
+        <label for="email">Correo electronico</label>
+        <input type="email" name="email" id="email" />
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" />
+        <label for="edad">dinos tu edad</label>
+        <input type="number" name="edad" id="edad" step="5" />
+        <br /><br /><br />
+        <label for="agerange">cual es tu rango de edad</label>
+        <input type="range" name="agerange" id="agerange" min="15" max="100" />
+        <label for="birthday">cual es tu fecha de nacimiento</label>
+        <input type="date" name="birthday" id="birthday" />
+        <button type="submit">Enviar</button>
+
+        <textarea
+          name="observaciones"
+          id="observaciones"
+          placeholder="observaciones"
+        ></textarea>
+      </fieldset>
+    </form>
+    <br /><br /><br />
+
+    <form action="/Vs/HTML5/Ficheros/Imagenes/Elden Ring 2.jpeg" method="get">
+      <b>Botones, checks y radios</b>
+      <br /><br />
+      <fieldset>
+        <input type="button" value="Enviar" /><br /><br />
+        <label for="terms"></label> Acepta los terminos y condiciones
+        <input type="checkbox" name="terms" id="terms" /> <br />
+        <label for="money">Cuanto dinero tiene</label>
+        <input type="radio" name="money" id="money" value="31a50" /> 31 a 50
+        <input type="radio" name="money" id="money" value="51a100" /> 51 a 100
+        <input type="radio" name="money" id="money" value="101a500" />101 a 500
+        <br />
+
+        <label for="Mugi">Cual es tu Mugi favorito</label>
+        <input type="checkbox" name="Mugi" id="Mugi" value="Zoro" /> Zoro
+        <input type="checkbox" name="Mugi" id="Mugi" value="Luffy" /> Luffy
+        <input type="checkbox" name="Mugi" id="Mugi" value="Robin" /> Robin
+        <br /><br /><br />
+
+        <button type="submit">Dame imagen</button>
+      </fieldset>
+    </form>
+    <br /><br /><br />
+
+    <form action="/Vs/HTML5/Ficheros/Imagenes/Elden Ring 3.jpeg" method="get">
+      <b>listas, Ficheros, colores</b><br /><br />
+      <fieldset>
+        <label for="list">Cual es tu Mugi favorito</label>
+        <select name="list" id="list">
+          <option value="Luffy">Luffy</option>
+          <option value="Zoro">Zoro</option>
+          <option value="Robin">Robin</option>
+        </select>
+        <br /><br /><br />
+        <label for="barco">Que pirata eliges</label>
+        <select name="barco" id="barco">
+          <optgroup label="Barbablanca">
+            <option value="Marco">Marco</option>
+            <option value="Inu">inu</option>
+          </optgroup>
+          <optgroup label="Mugiwaras">
+            <option value="Zoro">Zoro</option>
+            <option value="Usopp">Usopp</option>
+            <option value="Robin">Robin</option>
+          </optgroup>
+          <optgroup label="Roger">
+            <option value="Raylegh">Raylegh</option>
+            <option value="Oden">Oden</option>
+          </optgroup>
+        </select>
+        <br /><br /><br />
+        <input type="text" list="datalist" />
+        <datalist id="datalist">
+          <option value="1">Zoro</option>
+          <option value="2">Robin</option>
+          <option value="3">Sanji</option>
+        </datalist>
+        <br /><br />
+        <label for="file">Sube aqui tus ficheros</label>
+        <input type="file" name="file" id="file" multiple />
+
+        <label for="color"> Elige tu color favorito</label>
+        <input type="color" name="color" id="color" />
+      </fieldset>
+    </form>
+
+    <form action="/Vs/HTML5/Ficheros/Imagenes/Elden Ring 4.jpeg" method="get">
+      <b>Barras de progreso y mas cosillas</b> <br /><br />
+      <fieldset>
+        <br /><br />
+        <label for="progreso"> progreso de los formularios</label>
+        <progress max="100" value="33" id="progreso"></progress>
+        <br /><br /><br />
+
+        <label for="no">intenta escribir</label>
+        <input
+          type="text"
+          name="no"
+          id="no"
+          placeholder="no puedes jaja"
+          disabled
+        />
+        <label for="pass">Contraseña con caracteres especiales</label>
+        <input type="text" name="pass" required-pattern="[0-9]" maxlength="4" />
+      </fieldset>
+    </form>
+  </body>
+</html>
