@@ -1,0 +1,42 @@
+div:hover {
+  background-color: yellowgreen;
+}
+input:read-only {
+  background-color: green;
+}
+.cita::before {
+  content: '<<';
+  color: cadetblue;
+}
+.cita::after {
+  content: '>>';
+  color: cadetblue;
+}
+button:active {
+  color: orange;
+  font-weight: bold;
+}
+a:any-link {
+  color: crimson;
+  font-weight: bold;
+}
+
+input:checked + label {
+  color: crimson;
+}
+input:default + label {
+  color: green;
+}
+button:disabled {
+  color: red;
+}
+button:disabled {
+  color: red;
+}
+
+button:enabled {
+  color: green;
+}
+input:focus {
+  background-color: burlywood;
+}

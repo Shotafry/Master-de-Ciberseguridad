@@ -1,0 +1,62 @@
+.one {
+  width: 300px;
+  height: 100px;
+  background: whitesmoke;
+  max-width: 500px;
+}
+
+.overflow-visible {
+  height: 2em;
+  width: 12em;
+  border: 3px dotted orange;
+  margin-bottom: 100px;
+  overflow: visible; /* dibuja barras si es necesario */
+}
+
+.overflow-hidden {
+  width: 12em;
+  height: 2em;
+  border: 3px dotted orange;
+  overflow: hidden; /* No Scroll*/
+}
+
+.overflow-scroll {
+  width: 12em;
+  height: 2em;
+  border: 3px dotted orange;
+  overflow: scroll; /* Scroll */
+}
+
+.overflow-auto {
+  width: 12em;
+  height: 2em;
+  border: 3px dotted orange;
+  overflow: auto; /* auto */
+}
+
+.margin-example {
+  width: 800px;
+  margin: auto;
+  height: 100;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+.margin-exampleone {
+  width: 800px;
+  margin: auto;
+  height: 100;
+  padding: 20px;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+
+div.two {
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
+}
+
+div.three {
+  border: 2px solid blue;
+  border-radius: 8px;
+}

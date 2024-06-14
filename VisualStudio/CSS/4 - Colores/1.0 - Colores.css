@@ -1,0 +1,23 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.229),
+    rgb(10, 187, 96)
+  ); /* Degradado de rojo a amarillo */
+  color: black;
+  text-align: center;
+}
+.color {
+  color: green;
+}
+.colorr {
+  color: rgb(218, 14, 14);
+}
+.colora {
+  color: rgba(255, 0, 0, 0.229);
+}
+.Hexa {
+  color: #08b6ad;
+}

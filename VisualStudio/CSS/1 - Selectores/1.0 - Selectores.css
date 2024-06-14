@@ -1,0 +1,48 @@
+.one {
+  color: rgb(209, 166, 103);
+  width: 50px;
+  font-size: 50px;
+}
+.two {
+  color: rgb(209, 166, 103);
+  width: 50px;
+  font-size: 70px;
+}
+.lione {
+  color: cornflowerblue;
+  font-size: 3em;
+}
+
+ul > :last-child {
+  color: aquamarine;
+  font-size: 5rem;
+}
+
+div > p:first-child {
+  font-size: 1cm;
+}
+.divone > p {
+  color: blueviolet;
+}
+
+a[href='onepiece.com'] {
+  font-size: 32px;
+  color: darkcyan;
+}
+
+a[href='onepiece2.com'] {
+  color: rgb(209, 166, 103);
+}
+
+.ulone > :first-of-type + li {
+  font-size: large;
+  color: orange;
+}
+p ~ span {
+  font-style: italic;
+  color: orange;
+}
+.two-towers span {
+  color: crimson;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.Tarjeta {
+  width: 300px;
+  height: 700px;
+  margin: 50px;
+  background-color: aliceblue;
+  border: 5px rgb(173, 191, 231) ridge;
+}
+
+.robin {
+  text-align: center;
+  padding: 10px 20px;
+}
+.imageone {
+  display: block;
+  padding: 20px;
+  margin: auto;
+}
+.description {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- estos son los distintos tipos de formularios  
+
+<input type="email"> el teclado mostrará botones especiales como .com y @
+<input type="hidden">info que queremos enviar con el formulario pero que no 
+	se vea en la pantalla
+<input type="password"> no aparecerán los caracteres visibles al escribir.
+<input type="search"> para búsquedas
+<input type="tel"> tipo teléfono, desplegará teclado numérico
+<input type="text"> (por defecto)
+<input type="url">
+<textarea> -->
+
+    <label for="email">Correo electronico</label>
+    <input
+      type="text"
+      id="email"
+      name="email"
+      size="70"
+      value="usuario@dominio.com"
+    />
+
+    <form action="/" method="post">
+      <label for="usuario">usuario</label>
+      <input type="password" id="identificador" size="tamaño" name="nombre" />
+    </form>
+
+    <label for="comments">Comentarios:</label>
+    <textarea id="comments">Este será el contenido de los comentarios</textarea>
+
+    <form method="post" action="/user">
+      <label for="nick">nickName:</label>
+      <input
+        type="text"
+        name="nick"
+        placeholder="Su nick"
+        minlength="2"
+        maxlength="8"
+      />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <form method="post" action="/">
+      <label for="age">Edad:</label>
+      <input type="number" name="age" placeholder="Su edad" min="7" max="99" />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <form>
+      <label for="points">Points:</label>
+      <input type="number" id="points" name="points" step="5" />
+    </form>
+
+    <form name="formulario" method="post" action="/send.php">
+      <!-- Campo de entrada de fecha -->
+      Selecciona la fecha deseada:
+      <input
+        type="date"
+        name="fecha"
+        min="2034-03-25"
+        max="2038-05-25"
+        step="2"
+      />
+      <!-- Campo de entrada de hora -->
+      Selecciona la hora deseada:
+      <input type="time" name="hora" min="18:00" max="21:00" step="3600" />
+    </form>
+
+    <input type="button" value="Enviar" />
+    <br />
+    <input type="checkbox" id="condiciones" name="condiciones" checked />
+    Está de acuerdo con las condiciones explicadas más arriba.
+    <br />
+    <br />
+    <br />
+    <label for="lenguaje">Escoje tu lenguaje favorito</label>
+    <input type="checkbox" name="lenguaje" value="html" />HTML
+    <input type="checkbox" name="lenguaje" value="javascript" />Javascript
+    <input type="checkbox" name="lenguaje" value="css" />CSS
+    <input type="checkbox" name="lenguaje" value="xml" />XML
+
+    <form action="age">
+      <label for="age">que edad tienes?</label>
+      <input type="radio" id="menos18" value="menos18" name="edad" />Menos de 18
+      <input type="radio" id="18a30" value="18a30" name="edad" checked />18 a 30
+      <input type="radio" id="31a50" value="31a50" name="edad" />31 a 50
+      <input type="radio" id="mas50" value="mas50" name="edad" />Más de 50
+    </form>
+
+    <label for="Mugiwaras">Elige una opción:</label>
+
+    <select name="Mugiwaras" id="Mugiwaras">
+      <option value="Luffy">Luffy</option>
+      <option value="Zoro">Zoro</option>
+      <option value="Robin">Robin</option>
+    </select>
+    <br /><br /><br />
+    <select name="Pirata">
+      <optgroup label="Mugiwaras">
+        <option>Zoro</option>
+        <option>Luffy</option>
+        <option>Robin</option>
+      </optgroup>
+      <optgroup label="Shirohige">
+        <option>Barbablanca</option>
+        <option>Marco</option>
+        <option>Oden</option>
+      </optgroup>
+      <optgroup label="Roger">
+        <option>Shanks</option>
+        <option>Raylegh</option>
+      </optgroup>
+    </select>
+
+    <form name="formulario" method="post" action="/send.php">
+      <!-- Campo de texto combinado con lista de opciones -->
+      <input type="text" list="items" />
+      <!-- Lista de opciones -->
+      <datalist id="items">
+        <option value="1">Opción 1</option>
+        <option value="2">Opción 2</option>
+        <option value="3">Opción 3</option>
+      </datalist>
+    </form>
+
+    <form action="/next-page" method="post">
+      <fieldset>
+        <form name="formulario" method="post" action="http://mipagina/send.php">
+          <!-- Selección de color -->
+          Selecciona el color deseado:
+          <input type="color" name="color" value="#FF0000" />
+        </form>
+
+        <form>
+          <label for="files">Select files:</label>
+          <input type="file" id="files" name="files" multiple />
+        </form>
+        <legend>Datos Básicos</legend>
+      </fieldset>
+    </form>
+
+    <input type="submit" value="TextoBotón" />
+
+    <form name="formulario" method="post" action="/send.php">
+      <!-- Datos del formulario -->
+      Usuario: <input type="text" name="usuario" />
+      <!-- Botón de envío de formulario con imagen -->
+      <input
+        type="image"
+        src="./Ficheros/Imagenes/cyber-technology-security-network-protection-design-free-vector.jpg"
+        alt="Enviar"
+        width="80"
+        height="28"
+      />
+    </form>
+    <button type="submit">Enviar</button>
+
+    <button type="reset">este borrara todo</button>
+
+    <form name="formulario" method="post" action="/send.php">
+      <!-- Barra de progreso -->
+      <progress max="100" value="33">
+    </form>
+  </body>
+</html>

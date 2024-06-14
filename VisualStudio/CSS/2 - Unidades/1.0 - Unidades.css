@@ -1,0 +1,58 @@
+.pulgadas {
+  font-size: 0.5in;
+}
+.centimetros {
+  font-size: 0.5cm;
+}
+.milimetros {
+  font-size: 0.5mm;
+}
+.puntos {
+  font-size: 12pt;
+}
+.picas {
+  font-size: 6pc;
+}
+.em {
+  font-size: 1em;
+}
+.rem {
+  font-size: 1rem;
+}
+.pixel {
+  font-size: 12px;
+}
+div#back1 {
+  width: 250px;
+  height: 250px;
+  background-color: gainsboro;
+}
+div#back2 {
+  background-color: rgb(154, 151, 151);
+  width: 44%;
+  height: 44%;
+}
+.divhola {
+  color: aqua;
+}
+div#viewport1 {
+  width: 100vh;
+  height: 100vw;
+  background-color: gainsboro;
+}
+div#viewport2 {
+  width: 66vh;
+  height: 66vw;
+  background-color: rgb(74, 223, 183);
+}
+p#letras {
+  font-size: 4.5em;
+  font-weight: bold;
+  color: cadetblue;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 400px;
+}
